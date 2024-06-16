@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Form Example</title>
+    <style>
+    label {
+        width: 100px;
+        display: inline-block;
+        margin-right: 50px;
+        }
+    input,select {
+        padding: 8px;
+        width: 200px; 
+        box-sizing: border-box; 
+        }
+    </style>
+</head>
+<body>
+         <h1 style="text-align: center;">Task 4</h1>
+         <div style="text-align: center;">
+            <form style=" text-align: center;padding: 10px;display:inline-block;text-align:left;">
+                <label  for="fullname">Fullname:</label>
+                <input type="text" id="fullname" required>
+                <br><br>
+                <label for="username">Username:</label>
+                <input type="text" id="username" required>
+                <br><br>
+                <label for="Password">Password:</label>
+                <input type="password" id="Password" required>
+                <br><br>
+                <label for="repassword">Re-Password:</label>
+                <input type="password" id="repassword" required>
+                <br><br>
+                <label for="adress">Adress:</label>
+                <input type="text" id="adress" required>
+                <br><br>
+                <label for="age">Age:</label>
+                <input type="text" id="age" required>
+                <br><br>
+                <label for="gender">Gender:</label>
+                <select id="gender" required>
+                    <option value="">select gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <br><br>
+                <button type="button">Save</button>
+             </form>
+         </div>
+</body>
+</html>
